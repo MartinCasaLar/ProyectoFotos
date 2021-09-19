@@ -1,6 +1,8 @@
 const express = require ('express');
 const router = express.Router ()
+const controller = require ("../controller/fotosController")
 
-router.get('/', (req,res,next)=> {res.send("Soy una ruta Principal de fotos")})
+router.get('/', controller.getFotos)
+router.get('/:id', controller.getFoto)
 
 module.exports = router

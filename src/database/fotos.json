@@ -1,0 +1,22 @@
+[{
+    "id":1,
+    "name":"atardecer",
+    "precio": 30000,
+    "img": "https://images.pexels.com/photos/189349/pexels-photo-189349.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+
+},
+{
+    "id":2,
+    "name":"atardecer",
+    "precio": 30000,
+    "img": "https://images.pexels.com/photos/189349/pexels-photo-189349.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+
+},
+{
+    "id":3,
+    "name":"atardecer",
+    "precio": 30000,
+    "img": "https://images.pexels.com/photos/189349/pexels-photo-189349.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+
+}
+]

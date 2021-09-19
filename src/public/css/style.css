@@ -3,3 +3,54 @@
     padding: 0;
     box-sizing: border-box;
 }
+header{display:flex;
+justify-content: space-around;
+align-items: center;
+padding: 15px;
+background-color: rgb(110, 76, 76);
+color: white;
+}
+
+ul{list-style: none;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+a{display: block;
+    text-decoration: none;
+    margin-left: 15px; color: white;
+
+}
+
+main{
+    height: 100vh;
+    width: 80vw;
+    margin: auto;
+
+}
+
+.content-fotos{
+    margin-top: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.foto{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 200px;
+    width: 200px;
+    border: 1px solid red;
+    padding: 10px;
+}
+
+.foto img{
+    display: block;
+    width: 90%;
+    height: 80%;
+
+}
